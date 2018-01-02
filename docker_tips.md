@@ -26,9 +26,10 @@
 ## Commands
 
 ### Display
-* docker ps -l
-* docker images
-* Ctrl+P Ctrl+Q
-* docker run -it repository_name command
-* docker commit running_container_id new_name
+* docker ps -l                                to see containers
+* docker images                               to see images
+* Ctrl+P Ctrl+Q                               to detach from current container
+* docker run -it repository_name command      to create a container of an image
+* docker commit running_container_id new_name to commit a new docker image from running container id
 * docker attach container_id
+* docker exec -it container_id bash           to connect a running container with a new session (multiple terminal)
